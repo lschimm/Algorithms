@@ -3,7 +3,13 @@
 import math
 
 def recipe_batches(recipe, ingredients):
+  # Plan...
+  # the recipe value should be lower than the ingredient value
+  # if the ingredient value is higher = return how many batches can be mad
+  # if the recipe value is higher = return 0 / no batches can be made
+
   pass 
+
 
 
 if __name__ == '__main__':
