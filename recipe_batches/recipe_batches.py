@@ -8,6 +8,11 @@ def recipe_batches(recipe, ingredients):
   # if the ingredient value is higher = return how many batches can be mad
   # if the recipe value is higher = return 0 / no batches can be made
 
+
+# loop through the dictionary
+# check each key and value to what is needed
+#   as long as that value is >= the number, continue
+#   if the value is >=
   pass 
 
 

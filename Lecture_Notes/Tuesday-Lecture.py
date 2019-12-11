@@ -18,6 +18,6 @@ def bar(n):                           # This is O(n^2)
 def baz(n):                           # This is 
     s = 0                             # O(1)
     for i in range(n):                # O(n)
-        for j in range(int(sqrt(n))): # O(n)
-            s += i * j                #  O(1)
+        for j in range(int(sqrt(n))): # O(n) 
+            s += i * j                # O(1)
     return s                          # 
