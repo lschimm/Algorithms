@@ -14,14 +14,15 @@ def recipe_batches(recipe, ingredients):
   #Iterating through the dictionary
   for key, value in recipe.items():
     #Comparing to see if the ingredients exist
+    if (len(recipe) != len(ingredients)):
+          return 0
     if ingredients[key]:
       #If it exist then get the modulo of recipe in ingredients.
       temp = ingredients[key] / value
       #assign the modulo value to total, if the modulo value is less than total, replace it.
       if (temp < total):
         total = temp
-      if (len(recipe) != len(ingredients)):
-            return 0
+
     else:
       return 0
   return int(total)
