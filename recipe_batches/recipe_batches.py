@@ -3,17 +3,23 @@
 import math
 
 def recipe_batches(recipe, ingredients):
-  # Plan...
-  # the recipe value should be lower than the ingredient value
-  # if the ingredient value is higher = return how many batches can be mad
-  # if the recipe value is higher = return 0 / no batches can be made
+  # Plan 1
+  # We'll have to compare two dictionaries to each other
+  # Compare the first dictionary's values (the recipe) to the second (ingredients)
+  # So loop through it once to see if there's enough (subtract the recipe from the ingredients)
+  # if so, loop again to see if there's enough remainding for other batches
+  # if not, then stop looping and return the amount available
 
 
-# loop through the dictionary
-# check each key and value to what is needed
-#   as long as that value is >= the number, continue
-#   if the value is >=
-  pass 
+
+  pass
+
+
+
+  
+
+
+  
 
 
 
